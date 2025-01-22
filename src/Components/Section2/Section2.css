@@ -1,0 +1,54 @@
+.section-container {
+  background-color: #fff;
+  background-image: radial-gradient(circle, rgba(0, 123, 255, 0.1) 20%, rgba(0, 123, 255, 0) 80%);
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box; /* لضمان أن الحشو لا يتداخل مع عرض العنصر */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* لجعل العناصر تتوزع بشكل مرن وتتحرك إلى سطر جديد عند الحاجة */
+}
+
+.stat-card {
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  width: 23%; /* عرض ثابت لكل كارت */
+  margin-bottom: 20px;
+  box-sizing: border-box; /* تأكد من أن الحواف والحشو لا يؤثران على الحجم */
+}
+
+.icon {
+  font-size: 50px;
+  color: #007bff;
+}
+
+.number {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4e15ea;
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 20px;
+  color: #121212;
+  margin-top: 10px;
+}
+
+.video-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .stat-card {
+      width: 100%; /* على الشاشات الصغيرة، تجعل الكروت تأخذ العرض الكامل */
+      margin-bottom: 20px;
+  }
+}

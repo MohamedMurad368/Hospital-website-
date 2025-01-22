@@ -1,0 +1,54 @@
+/* تنسيق الصفحة */
+.container {
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* تنسيق الكارد */
+.row {
+  display: flex; /* تفعيل Flexbox */
+  justify-content: space-between; /* توزيع الكروت بشكل متساوي */
+}
+
+.cards {
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column; /* لضمان أن المحتوى داخل الكارد يتوزع عموديًا */
+  height: 90%; /* تحديد ارتفاع الكارد ليكون 100% */
+  padding: 20px;
+}
+
+.cards-img-top {
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover; /* تغطية الصورة بالكامل داخل الكارد */
+  width: 100%;
+}
+
+.cards-body {
+  background-color: white;
+  flex-grow: 1; /* تأكيد أن الجسم يأخذ المساحة المتبقية */
+}
+
+.cards-title {
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.cards-text {
+  font-size: 1rem;
+  color: #777;
+  flex-grow: 1; /* لضمان توزيع المساحة داخل الجسم */
+}
+
+/* تأثير عند التمرير على الكارد */
+.cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

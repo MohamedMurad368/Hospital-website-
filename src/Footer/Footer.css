@@ -1,0 +1,67 @@
+footer {
+  background-color: #f5f5dc; /* بيج فاتح */
+  color: #000; /* جميع النصوص باللون الأسود */
+  padding: 50px 0;
+}
+
+footer h5 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #000; /* التأكد من أن العناوين باللون الأسود */
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #000; /* التأكد من أن الفقرات باللون الأسود */
+}
+
+footer .bg-dark {
+  background-color: #f5f5dc !important; /* بيج فاتح */
+}
+
+footer .text-white {
+  color: #000 !important; /* نصوص باللون الأسود */
+}
+
+footer .footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000; /* العناوين الرئيسية باللون الأسود */
+}
+
+footer .footer-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #000; /* نصوص الفقرات باللون الأسود */
+}
+
+footer .footer-link {
+  background-color: transparent !important;
+  color: #000 !important; /* روابط باللون الأسود */
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer .footer-link:hover {
+  background-color: #dcdcdc; /* لون فاتح عند التمرير */
+  color: #000 !important;
+}
+
+footer .bg-white {
+  background-color: #fff !important;
+}
+
+footer .text-center {
+  font-size: 14px;
+  margin-top: 30px;
+  color: #000; /* النصوص المركزية باللون الأسود */
+}
+
+footer .footer-link:focus {
+  outline: none;
+  box-shadow: none;
+}

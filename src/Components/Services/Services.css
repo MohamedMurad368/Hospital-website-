@@ -1,0 +1,78 @@
+.services-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .services-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .services-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .home-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .home-link:hover {
+    text-decoration: underline;
+  }
+  
+  .details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .details-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 2rem;
+  }
+  
+  .text-start {
+    text-align: left;
+  }
+  
+  .additional-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* المسافة بين النص والصورة */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .content-left, .content-right {
+    flex: 1;
+  }
+  
+  .content-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* تأكد من أن الصورة تغطي المساحة المحددة */
+  }
+  

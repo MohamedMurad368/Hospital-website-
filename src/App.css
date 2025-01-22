@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.home-page {
+  padding-top: 80px;  /* Adjust based on your NavBar height */
+}
+
+/* For other pages, ensure they are not covered by the navbar */
+.other-page {
+  padding-top: 80px;  /* Adjust this value based on navbar height */
+}

@@ -1,0 +1,53 @@
+body.bg-light {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+  font-family: 'Arial', sans-serif; /* Default font */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: blue !important;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6347 !important;
+  transform: scale(1.1);
+}
+
+.text-warning {
+  color: #f10a0a !important;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6559ee;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Add space between navigation links */
+.navbar-nav .nav-link {
+  margin-right: 20px; /* Adjust this value to control the spacing */
+}
+
+/* For the last link, remove the margin-right to avoid extra space at the end */
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+/* Button hover effect in light mode */
+.navbar-light button:hover {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border-color: #007bff; /* Blue border */
+}
+/* Add a fixed position to the Navbar */
+/* هذا الكود يضمن التمرير السلس عند الانتقال إلى العناصر التي تحتوي على #id */
+html {
+  scroll-behavior: smooth;
+}

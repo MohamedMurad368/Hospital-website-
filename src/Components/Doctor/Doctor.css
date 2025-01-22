@@ -1,0 +1,41 @@
+.doctor-section {
+    background-color: #f5f5f5;
+    padding: 3rem 0;
+  }
+  
+  .btn-get-appointment {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+  }
+  
+  .card-img-container:hover .btn-get-appointment {
+    opacity: 1;
+  }
+  
+  .btn-get-appointment:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .card-img-container {
+    position: relative;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: contain; /* لضمان ظهور الصورة كاملة دون اقتصاص */
+    width: 100%; /* لضمان أن الصورة تأخذ كامل العرض */
+    height: 100%; /* لضمان أن الصورة تأخذ كامل الارتفاع */
+  }
+    

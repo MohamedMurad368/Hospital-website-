@@ -1,0 +1,113 @@
+.section1 {
+    background-image: url('https://meditro.themetrades.com/react/static/media/bg1.c53c8971d16c9a1033ae.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 0 50px;
+    position: relative; /* To position the bottom image inside */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text-container {
+    color: rgb(13, 13, 141);
+    max-width: 50%;
+    font-weight: 700;
+}
+
+.text-blue {
+    color: rgb(3, 3, 140);
+    font-weight: 900;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+/* Animation for moving the image up and down */
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.small-image {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    background-color: #e19727;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.read-more-btn:hover {
+    background-color: #bf670f;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 768px) {
+    .section1 {
+        padding: 0 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container img {
+        width: 80%;
+        max-width: none;
+    }
+
+    .text-container {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Position the image at the bottom of the section */
+.bottom-image-container {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed for spacing */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.bottom-image {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width to your preference */
+    height: auto;
+}
